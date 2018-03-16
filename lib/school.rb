@@ -1,3 +1,4 @@
+require 'pry'
 # code here!
 class School
 
@@ -12,9 +13,9 @@ NEW = {}
   end
 
   def add_student(students, grade)
-    students.each do |student, s_grade|
+    binding.pry
     NEW[s_grade] = [student]
-    end
+
   end
 
 
