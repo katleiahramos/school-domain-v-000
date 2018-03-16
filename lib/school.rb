@@ -12,7 +12,7 @@ NEW = {}
   end
 
   def add_student(student, grade)
-    NEW[grade] = student
+    NEW[grade] = [student]
   end
 
 
