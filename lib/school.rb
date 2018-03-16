@@ -1,10 +1,10 @@
 # code here!
 class School
 
-
+new = {}
 
   def initialize(name)
-    new = {}
+
     @name = name
   end
 
