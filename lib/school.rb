@@ -12,7 +12,7 @@ NEW = {}
     NEW
   end
 
-  def add_student(students, grade)
+  def add_student(student, grade)
 
     NEW[grade] << [student] if NEW.include?(grade)
     NEW[grade] = [student] if !(NEW.include?(grade))
