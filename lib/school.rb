@@ -13,7 +13,7 @@ NEW = {}
 
   def add_student(students, grade)
     students.each do |student, s_grade|
-    NEW[grade] = [student]
+    NEW[s_grade] = [student]
   end
 
 
