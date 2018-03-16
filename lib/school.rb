@@ -1,15 +1,15 @@
 # code here!
 class School
 
-new = {}
+#new = {}
 
   def initialize(name)
     @name = name
   end
 
-  def roster 
+  def roster
     new = {}
-  end 
+  end
 
 
 
