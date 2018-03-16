@@ -11,7 +11,8 @@ NEW = {}
     NEW
   end
 
-  def add_student(student, grade)
+  def add_student(students, grade)
+    students.each do |student, s_grade|
     NEW[grade] = [student]
   end
 
