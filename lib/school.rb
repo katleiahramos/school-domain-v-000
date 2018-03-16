@@ -28,4 +28,5 @@ class School
       sorted[grade] = @roster[grade].sort
     end
     sorted 
+  end 
 end
