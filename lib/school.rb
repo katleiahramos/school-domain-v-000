@@ -14,7 +14,7 @@ NEW = {}
 
   def add_student(students, grade)
     binding.pry
-    NEW[s_grade] = [student]
+    NEW[grade] = [student]
 
   end
 
