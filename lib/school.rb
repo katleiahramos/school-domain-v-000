@@ -1,9 +1,10 @@
 # code here!
 class School
 
-roster = []
+
 
   def initialize(name)
+    NEW = []
     @name = name
   end
 
