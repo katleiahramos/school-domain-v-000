@@ -18,6 +18,7 @@ class School
     #NEW[grade] = [student] if !(NEW.include?(grade))
   end
 
-
-
+  def grade(grade)
+    @roster[grade]
+  end 
 end
