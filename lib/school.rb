@@ -8,7 +8,7 @@ new = {}
   end
 
   def roster
-    @new 
+    new 
   end
 
   def add_student(student, grade)
