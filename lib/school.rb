@@ -14,6 +14,7 @@ NEW = {}
   def add_student(students, grade)
     students.each do |student, s_grade|
     NEW[s_grade] = [student]
+    end
   end
 
 
