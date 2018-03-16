@@ -14,8 +14,8 @@ NEW = {}
 
   def add_student(student, grade)
     #binding.pry
-    NEW[grade] = [student] if !(NEW.include?(grade))
-    NEW[grade] << student if NEW.include?(grade) 
+    NEW[grade] = [student] if !(NEW.include?(student))
+    NEW[grade] << student if NEW.include?(grade)
 
   end
 
