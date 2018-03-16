@@ -4,7 +4,7 @@ class School
 
 
   def initialize(name)
-    NEW = []
+    new = {}
     @name = name
   end
 
