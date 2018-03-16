@@ -13,9 +13,8 @@ NEW = {}
   end
 
   def add_student(student, grade)
-    #inding.pry
+    NEW[grade] = []
     NEW[grade] << student if NEW.include?(grade)
-    NEW[grade] = [student] if !(NEW.include?(grade))
   end
 
 
